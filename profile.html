@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section class="sec">
+      <div class="card">
+        <div class="toggle"></div>
+        <div class="content">
+          <div class="imgText">
+            <div class="imgBx">
+              <img src="https://scontent-cpt1-1.xx.fbcdn.net/v/t1.6435-9/37592108_10217289980624281_1046726952154562560_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=730e14&_nc_eui2=AeFTvMv39JhAlzWAUrOcFMnWUgOXLjSvFLxSA5cuNK8UvOiyg2YkWwt2_Sc51bz_5r0&_nc_ohc=ZdH2KI-PbA0AX8_Y95O&_nc_ht=scontent-cpt1-1.xx&oh=01453c72fd713e0aa66b36a4c7134401&oe=60CD6D98" alt="">
+            </div>
+            <h3>CJ Vanda<br><span>Self-taught Web Developer</span></h3>
+          </div>
+          <ul class="sci">
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script>
+      const sec = document.querySelector('.sec');
+      const toggle = document.querySelector('.toggle');
+      toggle.onclick = function() {
+        sec.classList.toggle('dark')
+      }
+    </script>
+  </body>
+</html>
